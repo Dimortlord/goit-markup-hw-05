@@ -115,6 +115,7 @@ img {
     line-height:1.14;
     letter-spacing: 0.02em;
     color: var(--secondary-logo-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -172,12 +173,14 @@ background-color: #188CE8;
     display: flex;
     padding: 32px 0;
     align-items: center;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .number-link {
     display: flex;
     padding: 32px 0;
     align-items: center;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -401,8 +404,8 @@ text-transform: uppercase;
 
 .backdrop-button {
     padding: 6px;
-    top: 10px;
-    right: 10px;
+    top: 8px;
+    right: 8px;
     position: absolute;
     display: flex;
     border-radius: 50px;
@@ -413,7 +416,7 @@ text-transform: uppercase;
 
 
 .icon-close {
-    fill: rgba(0, 0, 0, 0.1);
+    fill: #000000
 }
 
 /*-------------------------------Icons for feautures------------------------*/
@@ -832,6 +835,7 @@ padding-bottom: 60px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
@@ -847,6 +851,7 @@ padding-bottom: 60px;
     font-size: 14px;
     line-height: 1.71px;
     letter-spacing: 0.03em;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
@@ -863,6 +868,7 @@ padding-bottom: 60px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-network-number:hover,
