@@ -690,7 +690,7 @@ img {
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  transition: backgorund 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: backgorund-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-network-item {
